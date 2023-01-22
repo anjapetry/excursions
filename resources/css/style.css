@@ -5,29 +5,57 @@
 }
 
 body {
-	font-family: 'Geneva', sans-serif;
+	font-family: 'Verdana', 'Geneva', 'Helvetica Neue', 'Arial', sans-serif;
 	background-color: #000030;
-	color: aliceblue;
+	color: #fff;
 	text-align: center;
 	max-width: 100%;
 	min-height: 100%;
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 3.025rem;
 	font-weight: normal;
 	font-stretch: expanded;
 	margin: 0.75em;
 }
 
+h2 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	padding: 50px 0;
+}
+
 p {
-	font-size: 1rem;
-	color: rgb(255, 217, 0);
+	font-size: 21px;
+	color: rgb(250, 232, 142);
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 a {
+	font-size: 1rem;
 	color: hsl(160, 100%, 75%);
 	text-decoration: none;
 	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.camp {
+	max-width: 100%;
+	min-width: 20%;
+}
+.footer {
+	font-family: 'Geneva';
+	font-size: 1rem;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 10px;
+}
+
+.phone {
+	max-width: 20%;
+	max-height: 20%;
 }
